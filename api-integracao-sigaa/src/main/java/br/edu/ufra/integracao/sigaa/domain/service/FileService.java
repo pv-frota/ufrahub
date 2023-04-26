@@ -29,13 +29,13 @@ public class FileService {
         if (file != null && file.getSaved().after(twoHoursAgo)) {
             return file.getData();
         } else {
-            File newFile = new File();
-            newFile.setUsername(username);
-            newFile.setType(type);
-            newFile.setSaved(new Date());
+//            File newFile = new File();
+//            newFile.setUsername(username);
+//            newFile.setType(type);
+//            newFile.setSaved(new Date());
             //TODO integração sigaa para pegar o relatório.
-            newFile.setData(null);
-            repository.save(newFile);
+//            newFile.setData(null);
+//            repository.save(newFile);
             return null;
         }
     }
