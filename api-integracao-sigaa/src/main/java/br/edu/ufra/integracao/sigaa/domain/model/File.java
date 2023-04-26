@@ -28,6 +28,17 @@ public class File {
     @Column(name = "data", nullable = false)
     private byte[] data;
 
+    public File() {
+    }
+
+    public File(Integer id, String username, FileTypeEnum type, Date saved, byte[] data) {
+        this.id = id;
+        this.username = username;
+        this.type = type;
+        this.saved = saved;
+        this.data = data;
+    }
+
     public Integer getId() {
         return id;
     }

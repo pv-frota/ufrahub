@@ -33,6 +33,19 @@ public class User {
     @Column(name = "mc", nullable = false)
     private Double mc;
 
+    public User() {
+    }
+
+    public User(Integer id, String username, String matricula, String curso, String nivel, Double ira, Double mc) {
+        this.id = id;
+        this.username = username;
+        this.matricula = matricula;
+        this.curso = curso;
+        this.nivel = nivel;
+        this.ira = ira;
+        this.mc = mc;
+    }
+
     public Integer getId() {
         return id;
     }

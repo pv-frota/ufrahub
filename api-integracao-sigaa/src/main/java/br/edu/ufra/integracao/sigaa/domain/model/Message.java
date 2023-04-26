@@ -20,6 +20,15 @@ public class Message {
     @Column(name = "question", nullable = false)
     private String question;
 
+    public Message() {
+    }
+
+    public Message(String username, String title, String question) {
+        this.username = username;
+        this.title = title;
+        this.question = question;
+    }
+
     public Integer getId() {
         return id;
     }
