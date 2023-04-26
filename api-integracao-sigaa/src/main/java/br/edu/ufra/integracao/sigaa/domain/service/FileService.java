@@ -20,20 +20,23 @@ public class FileService {
 
     public byte[] getFile(String username, FileTypeEnum type) {
         File file = repository.findFirstByUsernameAndType(username, type);
-        if(file != null) {
-            Date now = new Date();
-            Calendar cal = Calendar.getInstance();
-            cal.setTime(now);
-            cal.add(Calendar.HOUR_OF_DAY, -2);
-            Date twoHoursAgo = cal.getTime();
+        Date now = new Date();
+        Calendar cal = Calendar.getInstance();
+        cal.setTime(now);
+        cal.add(Calendar.HOUR_OF_DAY, -2);
+        Date twoHoursAgo = cal.getTime();
 
-            if (file.getSaved().after(twoHoursAgo)) {
-                return file.getData();
-            } else {
-                //TODO integração sigaa para pegar o relatório.
-                return null;
-            }
+        if (file != null && file.getSaved().after(twoHoursAgo)) {
+            return file.getData();
+        } else {
+            File newFile = new File();
+            newFile.setUsername(username);
+            newFile.setType(type);
+            newFile.setSaved(new Date());
+            //TODO integração sigaa para pegar o relatório.
+            newFile.setData(null);
+            repository.save(newFile);
+            return null;
         }
-        return null;
     }
 }
