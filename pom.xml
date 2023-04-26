@@ -5,20 +5,20 @@
     <name>ufrahub</name>
     <description>Projeto App Ufra Hub</description>
 
+    <groupId>br.edu.ufra</groupId>
+    <artifactId>ufrahub</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+
     <modules>
         <module>autenticacao-sigaa</module>
         <module>api-integracao-sigaa</module>
         <module>commons-ufrahub</module>
     </modules>
 
-    <groupId>br.edu.ufra</groupId>
-    <artifactId>ufrahub</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-
+    <packaging>pom</packaging>
     <properties>
         <java.version>1.8</java.version>
     </properties>
-    <packaging>pom</packaging>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -26,5 +26,13 @@
         <version>2.7.1</version>
         <relativePath/>
     </parent>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
 </project>
