@@ -8,9 +8,11 @@ import java.util.List;
 public class UserResponseDTO extends JwtResponseDTO {
   private User userInfo;
 
-  public UserResponseDTO(String token, String name, String username, User userInfo, List<String> roles) {
-    super(token,name,username,roles);
-    this.userInfo = userInfo;
+  public UserResponseDTO() {
+  }
+
+  public UserResponseDTO(String token, String name, String username, List<String> roles) {
+    super(token, name, username, roles);
   }
 
   public UserResponseDTO(User userInfo, JwtResponseDTO dto) {

@@ -9,6 +9,9 @@ public class JwtResponseDTO {
   private String username;
   private List<String> roles;
 
+  public JwtResponseDTO() {
+  }
+
   public JwtResponseDTO(String token, String name, String username, List<String> roles) {
     this.token = token;
     this.name = name;
