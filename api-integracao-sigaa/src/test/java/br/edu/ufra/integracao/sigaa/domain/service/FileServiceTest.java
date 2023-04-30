@@ -1,6 +1,6 @@
 package br.edu.ufra.integracao.sigaa.domain.service;
 
-import br.edu.ufra.integracao.sigaa.AbstractTestContainer;
+import br.edu.ufra.integracao.sigaa.MySQLTestContainer;
 import br.edu.ufra.integracao.sigaa.domain.enumeration.FileTypeEnum;
 import br.edu.ufra.integracao.sigaa.domain.model.File;
 import br.edu.ufra.integracao.sigaa.domain.repository.FileRepository;
@@ -15,7 +15,7 @@ import java.util.Date;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 @SpringBootTest
-class FileServiceTest extends AbstractTestContainer {
+class FileServiceTest extends MySQLTestContainer {
 
     private final FileRepository repository;
     private final FileService underTest;

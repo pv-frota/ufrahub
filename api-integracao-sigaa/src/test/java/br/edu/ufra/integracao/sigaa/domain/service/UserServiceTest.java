@@ -1,6 +1,6 @@
 package br.edu.ufra.integracao.sigaa.domain.service;
 
-import br.edu.ufra.integracao.sigaa.AbstractTestContainer;
+import br.edu.ufra.integracao.sigaa.MySQLTestContainer;
 import br.edu.ufra.integracao.sigaa.domain.model.User;
 import br.edu.ufra.integracao.sigaa.domain.repository.UserRepository;
 import org.junit.jupiter.api.AfterEach;
@@ -12,7 +12,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 @SpringBootTest
-class UserServiceTest extends AbstractTestContainer {
+class UserServiceTest extends MySQLTestContainer {
 
     private final UserRepository repository;
     private final UserService underTest;

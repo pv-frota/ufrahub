@@ -1,6 +1,6 @@
 package br.edu.ufra.integracao.sigaa.domain.service;
 
-import br.edu.ufra.integracao.sigaa.AbstractTestContainer;
+import br.edu.ufra.integracao.sigaa.MySQLTestContainer;
 import br.edu.ufra.integracao.sigaa.domain.model.Message;
 import br.edu.ufra.integracao.sigaa.domain.repository.MessageRepository;
 import org.junit.jupiter.api.AfterEach;
@@ -11,7 +11,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
-class MessageServiceTest extends AbstractTestContainer {
+class MessageServiceTest extends MySQLTestContainer {
 
     private final MessageRepository repository;
     private final MessageService underTest;
