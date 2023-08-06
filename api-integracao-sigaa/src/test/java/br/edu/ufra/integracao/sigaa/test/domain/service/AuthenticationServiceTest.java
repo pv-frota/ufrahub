@@ -1,9 +1,9 @@
-package br.edu.ufra.integracao.sigaa.domain.service;
+package br.edu.ufra.integracao.sigaa.test.domain.service;
 
 import br.edu.ufra.autenticationufrapp.domain.service.AuthenticationService;
 import br.edu.ufra.autenticationufrapp.infrastructure.dto.request.LoginRequestDTO;
 import br.edu.ufra.autenticationufrapp.infrastructure.dto.response.JwtResponseDTO;
-import br.edu.ufra.integracao.sigaa.MySQLTestContainer;
+import br.edu.ufra.integracao.sigaa.test.MySQLTestContainer;
 import br.edu.ufra.integracao.sigaa.domain.model.User;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;

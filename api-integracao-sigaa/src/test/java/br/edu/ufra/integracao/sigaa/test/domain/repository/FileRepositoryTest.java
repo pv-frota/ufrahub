@@ -1,6 +1,7 @@
-package br.edu.ufra.integracao.sigaa.domain.repository;
+package br.edu.ufra.integracao.sigaa.test.domain.repository;
 
-import br.edu.ufra.integracao.sigaa.MySQLTestContainer;
+import br.edu.ufra.integracao.sigaa.domain.repository.FileRepository;
+import br.edu.ufra.integracao.sigaa.test.MySQLTestContainer;
 import br.edu.ufra.integracao.sigaa.domain.enumeration.FileTypeEnum;
 import br.edu.ufra.integracao.sigaa.domain.model.File;
 import org.junit.jupiter.api.AfterEach;

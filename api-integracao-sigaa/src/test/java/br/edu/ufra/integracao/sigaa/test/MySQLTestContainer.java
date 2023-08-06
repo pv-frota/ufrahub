@@ -1,4 +1,4 @@
-package br.edu.ufra.integracao.sigaa;
+package br.edu.ufra.integracao.sigaa.test;
 
 import org.flywaydb.core.Flyway;
 import org.junit.jupiter.api.BeforeAll;

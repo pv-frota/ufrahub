@@ -1,4 +1,4 @@
-package br.edu.ufra.integracao.sigaa;
+package br.edu.ufra.integracao.sigaa.test;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,6 +1,7 @@
-package br.edu.ufra.integracao.sigaa.domain.service;
+package br.edu.ufra.integracao.sigaa.test.domain.service;
 
-import br.edu.ufra.integracao.sigaa.MySQLTestContainer;
+import br.edu.ufra.integracao.sigaa.domain.service.FileService;
+import br.edu.ufra.integracao.sigaa.test.MySQLTestContainer;
 import br.edu.ufra.integracao.sigaa.domain.enumeration.FileTypeEnum;
 import br.edu.ufra.integracao.sigaa.domain.model.File;
 import br.edu.ufra.integracao.sigaa.domain.repository.FileRepository;

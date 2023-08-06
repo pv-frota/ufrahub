@@ -1,6 +1,6 @@
-package br.edu.ufra.integracao.sigaa.domain.controller;
+package br.edu.ufra.integracao.sigaa.test.domain.controller;
 
-import br.edu.ufra.integracao.sigaa.AuthenticatedRestTemplate;
+import br.edu.ufra.integracao.sigaa.test.AuthenticatedRestTemplate;
 import br.edu.ufra.integracao.sigaa.domain.enumeration.FileTypeEnum;
 import br.edu.ufra.integracao.sigaa.domain.model.File;
 import br.edu.ufra.integracao.sigaa.domain.repository.FileRepository;

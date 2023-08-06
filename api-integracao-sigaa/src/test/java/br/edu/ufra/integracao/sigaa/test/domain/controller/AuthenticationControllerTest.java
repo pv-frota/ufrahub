@@ -1,7 +1,7 @@
-package br.edu.ufra.integracao.sigaa.domain.controller;
+package br.edu.ufra.integracao.sigaa.test.domain.controller;
 
 import br.edu.ufra.autenticationufrapp.infrastructure.dto.request.LoginRequestDTO;
-import br.edu.ufra.integracao.sigaa.MySQLTestContainer;
+import br.edu.ufra.integracao.sigaa.test.MySQLTestContainer;
 import br.edu.ufra.integracao.sigaa.domain.model.User;
 import br.edu.ufra.integracao.sigaa.domain.repository.UserRepository;
 import br.edu.ufra.integracao.sigaa.infrastructure.security.dto.response.UserResponseDTO;

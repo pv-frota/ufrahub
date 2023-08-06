@@ -1,4 +1,4 @@
-package br.edu.ufra.integracao.sigaa;
+package br.edu.ufra.integracao.sigaa.test;
 
 import br.edu.ufra.autenticationufrapp.infrastructure.dto.request.LoginRequestDTO;
 import br.edu.ufra.integracao.sigaa.infrastructure.security.dto.response.UserResponseDTO;
