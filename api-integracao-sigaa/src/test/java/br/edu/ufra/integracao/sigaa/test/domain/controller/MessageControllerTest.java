@@ -1,7 +1,7 @@
 package br.edu.ufra.integracao.sigaa.test.domain.controller;
 
 import br.edu.ufra.integracao.sigaa.test.AuthenticatedRestTemplate;
-import br.edu.ufra.integracao.sigaa.domain.model.Message;
+import br.edu.ufra.ufrahub.integracao.sigaa.domain.model.Message;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,7 +1,7 @@
 package br.edu.ufra.integracao.sigaa.domain.controller;
 
-import br.edu.ufra.integracao.sigaa.domain.model.Message;
-import br.edu.ufra.integracao.sigaa.domain.service.MessageService;
+import br.edu.ufra.ufrahub.integracao.sigaa.domain.model.Message;
+import br.edu.ufra.ufrahub.integracao.sigaa.domain.service.MessageService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;

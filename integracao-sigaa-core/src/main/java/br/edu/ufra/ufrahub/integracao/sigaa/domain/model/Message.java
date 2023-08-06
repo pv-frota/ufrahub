@@ -1,4 +1,4 @@
-package br.edu.ufra.integracao.sigaa.domain.model;
+package br.edu.ufra.ufrahub.integracao.sigaa.domain.model;
 
 import javax.persistence.*;
 

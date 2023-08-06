@@ -1,10 +1,10 @@
 package br.edu.ufra.integracao.sigaa.test.domain.service;
 
-import br.edu.ufra.integracao.sigaa.domain.service.FileService;
 import br.edu.ufra.integracao.sigaa.test.MySQLTestContainer;
-import br.edu.ufra.integracao.sigaa.domain.enumeration.FileTypeEnum;
-import br.edu.ufra.integracao.sigaa.domain.model.File;
-import br.edu.ufra.integracao.sigaa.domain.repository.FileRepository;
+import br.edu.ufra.ufrahub.integracao.sigaa.domain.enumeration.FileTypeEnum;
+import br.edu.ufra.ufrahub.integracao.sigaa.domain.model.File;
+import br.edu.ufra.ufrahub.integracao.sigaa.domain.repository.FileRepository;
+import br.edu.ufra.ufrahub.integracao.sigaa.domain.service.FileService;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package br.edu.ufra.integracao.sigaa.domain.enumeration;
+package br.edu.ufra.ufrahub.integracao.sigaa.domain.enumeration;
 
 public enum FileTypeEnum {
     VINCULO("Declaração de Vínculo"), HISTORICO("Histórico Escolar");

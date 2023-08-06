@@ -1,6 +1,6 @@
-package br.edu.ufra.integracao.sigaa.domain.model;
+package br.edu.ufra.ufrahub.integracao.sigaa.domain.model;
 
-import br.edu.ufra.integracao.sigaa.domain.enumeration.FileTypeEnum;
+import br.edu.ufra.ufrahub.integracao.sigaa.domain.enumeration.FileTypeEnum;
 
 import javax.persistence.*;
 import java.util.Date;

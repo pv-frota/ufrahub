@@ -1,9 +1,9 @@
 package br.edu.ufra.integracao.sigaa.test.domain.controller;
 
 import br.edu.ufra.integracao.sigaa.test.AuthenticatedRestTemplate;
-import br.edu.ufra.integracao.sigaa.domain.enumeration.FileTypeEnum;
-import br.edu.ufra.integracao.sigaa.domain.model.File;
-import br.edu.ufra.integracao.sigaa.domain.repository.FileRepository;
+import br.edu.ufra.ufrahub.integracao.sigaa.domain.enumeration.FileTypeEnum;
+import br.edu.ufra.ufrahub.integracao.sigaa.domain.model.File;
+import br.edu.ufra.ufrahub.integracao.sigaa.domain.repository.FileRepository;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;

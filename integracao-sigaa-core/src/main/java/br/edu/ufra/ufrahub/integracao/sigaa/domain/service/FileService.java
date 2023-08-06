@@ -1,8 +1,8 @@
-package br.edu.ufra.integracao.sigaa.domain.service;
+package br.edu.ufra.ufrahub.integracao.sigaa.domain.service;
 
-import br.edu.ufra.integracao.sigaa.domain.enumeration.FileTypeEnum;
-import br.edu.ufra.integracao.sigaa.domain.model.File;
-import br.edu.ufra.integracao.sigaa.domain.repository.FileRepository;
+import br.edu.ufra.ufrahub.integracao.sigaa.domain.enumeration.FileTypeEnum;
+import br.edu.ufra.ufrahub.integracao.sigaa.domain.model.File;
+import br.edu.ufra.ufrahub.integracao.sigaa.domain.repository.FileRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

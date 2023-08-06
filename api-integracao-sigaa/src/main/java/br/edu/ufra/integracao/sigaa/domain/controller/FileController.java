@@ -1,7 +1,7 @@
 package br.edu.ufra.integracao.sigaa.domain.controller;
 
-import br.edu.ufra.integracao.sigaa.domain.enumeration.FileTypeEnum;
-import br.edu.ufra.integracao.sigaa.domain.service.FileService;
+import br.edu.ufra.ufrahub.integracao.sigaa.domain.enumeration.FileTypeEnum;
+import br.edu.ufra.ufrahub.integracao.sigaa.domain.service.FileService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;

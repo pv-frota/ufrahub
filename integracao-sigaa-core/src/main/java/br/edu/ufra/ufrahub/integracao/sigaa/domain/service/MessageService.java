@@ -1,7 +1,7 @@
-package br.edu.ufra.integracao.sigaa.domain.service;
+package br.edu.ufra.ufrahub.integracao.sigaa.domain.service;
 
-import br.edu.ufra.integracao.sigaa.domain.model.Message;
-import br.edu.ufra.integracao.sigaa.domain.repository.MessageRepository;
+import br.edu.ufra.ufrahub.integracao.sigaa.domain.model.Message;
+import br.edu.ufra.ufrahub.integracao.sigaa.domain.repository.MessageRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

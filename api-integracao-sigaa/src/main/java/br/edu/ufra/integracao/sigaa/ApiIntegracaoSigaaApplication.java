@@ -8,9 +8,9 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.data.ldap.repository.config.EnableLdapRepositories;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"br.edu.ufra.integracao.sigaa", "br.edu.ufra.autenticationufrapp"})
-@EntityScan(basePackages = {"br.edu.ufra.integracao.sigaa", "br.edu.ufra.autenticationufrapp"})
-@EnableJpaRepositories("br.edu.ufra.integracao.sigaa")
+@ComponentScan(basePackages = {"br.edu.ufra.integracao.sigaa", "br.edu.ufra.autenticationufrapp", "br.edu.ufra.ufrahub.integracao.sigaa"})
+@EntityScan(basePackages = {"br.edu.ufra.integracao.sigaa", "br.edu.ufra.autenticationufrapp",  "br.edu.ufra.ufrahub.integracao.sigaa"})
+@EnableJpaRepositories(basePackages = {"br.edu.ufra.integracao.sigaa", "br.edu.ufra.ufrahub.integracao.sigaa"})
 @EnableLdapRepositories("br.edu.ufra.autenticationufrapp")
 public class ApiIntegracaoSigaaApplication {
 

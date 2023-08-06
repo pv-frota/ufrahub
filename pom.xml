@@ -13,6 +13,7 @@
         <module>autenticacao-sigaa</module>
         <module>api-integracao-sigaa</module>
         <module>commons-ufrahub</module>
+        <module>integracao-sigaa-core</module>
     </modules>
 
     <packaging>pom</packaging>

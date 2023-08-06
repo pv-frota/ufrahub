@@ -32,6 +32,11 @@
             <artifactId>commons-ufrahub</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>br.edu.ufra</groupId>
+            <artifactId>integracao-sigaa-core</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
         <!--Dependencias-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
