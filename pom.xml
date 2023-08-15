@@ -11,7 +11,7 @@
 
     <modules>
         <module>autenticacao-sigaa</module>
-        <module>api-integracao-sigaa</module>
+        <module>api-ufrahub</module>
         <module>commons-ufrahub</module>
         <module>integracao-sigaa-core</module>
     </modules>
